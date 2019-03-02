@@ -1,0 +1,39 @@
+#ex1{
+	color: #7b0cf2;
+	height: 610px;
+	border: 4px solid red;
+	text-align: center;
+	line-height: 610px;
+	
+}
+#websitelogo{
+	color: #7b0cf2;
+	height: 100px;
+	width: 1300px;
+	border: 4px solid red;
+	text-align: center;
+	line-height: 100px;
+
+}
+#menu{
+	color: #7b0cf2;
+	height: 50px;
+	border: 4px solid red;
+	text-align: center;
+	line-height: 50px;
+
+}
+#contentarea{
+	color: #7b0cf2;
+	height: 300px;
+	border: 4px solid red;
+	text-align: center;
+	line-height: 300px;
+}
+#footer{
+	color: #7b0cf2;
+	height: 50px;
+	border: 4px solid red;
+	text-align: center;
+	line-height: 50px;
+}
