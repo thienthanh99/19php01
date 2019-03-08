@@ -1,0 +1,19 @@
+#box{
+	border: 3px dotted;
+	padding: 10px;
+	text-align: center;
+	line-height: 100px;
+}
+#box11{
+	border: 3px solid;
+	padding: 10px;
+}
+
+#box1{
+	border:  3px dotted;
+}
+#box2{
+	border:  3px dotted;
+	margin: 4px;
+	}
+		

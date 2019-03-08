@@ -1,0 +1,18 @@
+#container{
+	width: 1000px;
+	margin: 0px auto;
+	text-align: center;
+	color: #FFF;
+}
+#a{
+	height: 100px;      
+    background: #FF9900; 
+}
+#b{
+	height: 350px;      
+    background: #FF9900; 
+}
+#c{
+	height: 100px;      
+    background: #FF9900; 
+}
