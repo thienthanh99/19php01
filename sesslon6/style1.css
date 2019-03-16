@@ -1,0 +1,16 @@
+#demo{
+	height: 300px;
+	width: 300px;
+	border: 2px solid green;
+	border-radius: 50%;
+	box-shadow: 12px -7px 6px grey;
+	background-color: blue;
+	background-image: url('hoa-mi-2-15426825341231085294432-crop-15426825399581823306868.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#demo1{
+	height: 300px;
+	width: 600px;
+	background-image: linear-gradient(to left,green,blue);
+}

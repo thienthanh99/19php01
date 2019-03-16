@@ -1,0 +1,40 @@
+
+body{
+	background-color: red;
+}
+@media screen and (max-width: 768px){
+	body{
+	background-color: blue;
+}
+@media screen and (max-width: 600px){
+	body{
+	background-color: green;
+}
+@media screen and (max-width: 500px){}
+}
+}
+
+#container{
+	width: 1100px;
+	height: 600px;
+    margin: 0px auto;
+    color: #111111;
+    border: 2px solid green;
+	border-radius: 30px;
+	box-shadow: 12px -7px 6px grey;
+
+}
+#header{
+	height: 100px;
+}
+.logo{
+	width: 30%;
+	float: left;
+	height: 100px;
+}
+.banner{
+	width: 	70%;
+	float: right;
+	height: 100px;
+	color: #00CC00;
+}
