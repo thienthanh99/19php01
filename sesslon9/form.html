@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>FROM</title>
+		<link rel="stylesheet" type="text/css" href="form.css">
+		<link rel="shortcut icon" href="anh.jpg">
+		<meta name="description" content="web dep">
+		<meta name="keyword" content="php7,html5,booktrap,css">
+	</head>
+	<body>
+		<h1>Form example</h1>
+		<form action="#" method="POST" name="register" target="_back">
+			<p>Name<input type="text" name="name" disabled value="thanhdeptrai"></p>
+			<p>Email<input type="text" name="email" readonly value="thanh@gmail.com"></p>
+			<p>Password<input type="password" name="password"></p>
+			<p><input type="submit" name="register" value="Register" ></p>
+			<p><input type="reset" name="register" value="Reset" ></p>
+			<p><input type="button" name="register" value="ok" ></p>
+			<p><input type="image" src="img" name="register" value="Register" ></p>
+		</form>
+
+		<h2>Form example</h2>
+		<form action="#" method="POST" name="register" target="_back">
+			<p>Name<input type="text" name="name" placeholder="please input your name"></p>
+			<p>Email<input type="text" name="email" placeholder="example@3gmail.com"></p>
+			<p>Password<input type="password" name="password"></p>
+			<input type="hidden" name="mu_id" value="0772345647">
+			<p>Gemder
+				<input type="radio" name="gender" value="male">male
+				<input type="radio" name="gender" value="female">Female
+				<input type="radio" name="gender" value="other">Other
+			</p>
+			<p>Faviourite
+				<input type="checkbox" name="gender" value="male">male
+				<input type="checkbox" name="gender" value="female">Female
+				<input type="checkbox" name="gender" value="other">Other
+			</p>
+			<p>Country
+				<select name="country">
+					<option value="vni">VietNam</option>
+					<option value="lao">Lao</option>
+					<option value="cam">Campuchia</option>
+				</select>
+			</p>
+			<p>
+				<textarea name="about" rows="6" cols="40"></textarea>
+			</p>
+			<p> Avatar
+				<input type="file" name="avatar">
+			</p>
+			<p><input type="submit" name="register" value="Register" ></p>
+			<p><input type="reset" name="register" value="Reset" ></p>
+			<p><input type="button" name="register" value="ok" ></p>
+		</form>
+
+	</body>
+</html>

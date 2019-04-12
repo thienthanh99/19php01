@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Examp2</title>
+		<link rel="stylesheet" type="text/css" href="hello.css">
+	</head>
+	<body>
+		<!--javav co the thay doi noi dung html-->
+		<div id="changeContent">Hello Javascript! </div>
+		<a href="#" onclick="document.getElementById('changeContent').innerHTML = 'Hello 19PHP01!'">Change Content</a>
+
+		<!--javascript co the thay duoc style trong html -->
+		<div id="changeStyle">
+			My Style
+		</div>
+		<a href="#" onclick="document.getElementById('changeStyle').style.color = 'green'">Change Color</a>
+		<a href="#" onclick="document.getElementById('changeStyle').style.fontSize = '26px'">Change FontSize</a>
+		<br>
+		<!-- Javascript co the thay doi thuoc tinh cua doi tuong -->
+		<img src="image/hoa-mi-2-15426825341231085294432-crop-15426825399581823306868.jpg" alt="image" id="changeImage">
+		<a href="#" onclick="document.getElementById('changeImage').src = 'image/Ronaldo_Real.jpg'">Change Image</a>	
+
+		<br>
+		<!-- javascript co the an mot doi tuong html-->
+
+		<img src="image/hoa-mi-2-15426825341231085294432-crop-15426825399581823306868.jpg" alt="image" id="hideImage">
+		<a href="#" onclick="document.getElementById('hideImage').style.display = 'none'">Hide Image</a>
+		<!-- javascript co the  hien thi mot doi tuong html-->
+
+		<a href="#" onclick="document.getElementById('hideImage').style.display = 'block'">Show Image</a>
+
+		<script type="text/javascript" src="intro.js"></script>
+	</body>
+</html>

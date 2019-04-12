@@ -1,0 +1,151 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	height: 750px;
+	width: 100%;
+}
+header{
+
+	height: 100px;
+	width: 100%;
+	background-color: #08298A;
+	color: #fff;
+}
+
+.logo{
+	margin-top: 25px;
+	float: left;
+	margin-left: 150px;
+	font-size: 20px;
+}
+.banner{
+	float: right;
+}
+.email{
+	margin-top: 30px;
+	margin-right: 10px;
+	float: left;
+}
+.password{
+	margin-top: 30px;
+	float: left;
+	margin-right: 10px;
+}
+.password a{
+	color: #fff;
+}
+.submit{
+	float: right;
+	margin-right: 20px;
+	margin-top: 48px;
+	
+}
+.submit input{
+	height: 20px;
+	background-color: #2E64FE;
+	border: none;
+	color: white
+}
+
+section{
+	height: 550px;
+	width: 100%;
+	background-image: linear-gradient(to top,#CECEF6,#fff);
+}
+article{
+	float: left;
+	margin-top: 20px;
+	margin-left: 150px;
+	padding-right: 10px;
+	width: 40%;
+}
+article h4{
+	font-size: 25px;
+	color: #010A3C;
+}
+aside{
+	width: 30%;
+	float:right;
+	margin-right: 50px;
+}
+aside h1{
+	font-size: 45px;
+}
+aside h3{
+	font-size: 20px;
+}
+form .name input{
+	margin-right: 10px;
+	font-size: 25px;
+	float: left;
+	border-radius: 5px;
+	width: 150px;
+}
+form .taikhoan input{
+	margin-top: 10px;
+	border-radius: 5px;
+	font-size: 25px;
+	width: 315px;
+}
+select{
+	font-size: 20px;
+}
+span{
+	font-size: 12px;
+	color: #454845;
+}
+aside p{
+	color:#454845; 
+}
+.submit1 input{
+	margin-top: 10px;
+	font-size: 20px;
+	width: 200px;
+	height: 30px;
+	border-radius: 5px;
+	background-color: #408B3B;
+	border: none;
+	color: white
+}
+.clear{
+	clear: both;
+}
+footer{
+	height: 80px;
+	width: 70%;
+	margin-left: 200px;
+	font-size: 13px;
+
+}
+.list_ft{
+	color: grey;
+	text-align: center;
+
+}
+li {
+float: left;
+}
+li a {
+display: block;
+text-align: center;
+padding: 10px;
+text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+
+li a:hover {
+background-color: ;
+}
+.border{
+	border-top: 1px solid grey;
+	margin-top: 20px;
+}
+.id{
+	font-size: 13px;
+	color: grey;
+	
+}
